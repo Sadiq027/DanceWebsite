@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Neonderthaw&family=Satisfy&family=Sedgwick+Ave&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 80vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    /* margin: 15px 0px; */
+    margin-top: 30px;
+    margin-bottom:  5px;
+}
+#Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+
+}
+.MyInput{
+    width: 45%;
+    padding: 12px;
+    margin: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    outline: none;
+    font-family:'Lobster', cursive;
+}
+.btn{
+    font-family: 'Sedgwick Ave', cursive;
+    padding: 5px;
+    /* margin-bottom: 54px; */
+    margin: 20px auto;
+    width: 5rem;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+.btn:hover{
+    /* font-family: 'Satisfy', cursive; */
+    background-color: rgb(48, 48, 48);
+    border: 2px solid black ;
+    cursor: pointer;
+
+}

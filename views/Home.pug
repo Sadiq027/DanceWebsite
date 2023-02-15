@@ -1,0 +1,44 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  block style 
+    style  
+       include ../static/style.css
+
+block content 
+    //- nav#navbar
+    //-     div#logo
+    //-         //- img(src="/static/brand4.png")
+    //-         h4 BD& - World's Best Dance Enthusiats
+    //-     ul
+    //-         li #[a(href="/") Home]
+    //-         li #[a(href="/") About]
+    //-         li #[a(href="/") Services]
+    //-         li #[a(href="/") Class Info]
+    //-         li #[a(href="/") Contact Us]
+
+    section#introSection
+        div Welcome to BEN's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+
+    section#OurMission 
+        h2  Our Mission
+        div.card
+           h3  This is Card  
+           p Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque explicabo aut quod magnam sequi illum id est tenetur cupiditate quasi? Natus quaerat enim dolore rem qui repellendus aliquid, cupiditate nemo.
+        div.card
+           h3  This is Card  
+           p Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque explicabo aut quod magnam sequi illum id est tenetur cupiditate quasi? Natus quaerat enim dolore rem qui repellendus aliquid, cupiditate nemo.
+        div.card
+           h3  This is Card  
+           p Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque explicabo aut quod magnam sequi illum id est tenetur cupiditate quasi? Natus quaerat enim dolore rem qui repellendus aliquid, cupiditate nemo.
+
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div.Sponsors 
+            img(src="/static/IMG/contact-us.png.png", alt="Sponsor Images" Class="SpImg")
+            img(src="/static/IMG/insta.png.png", alt="Sponsor Images" Class="SpImg")
+            img(src="/static/IMG/telegram.png.png", alt="Sponsor Images" Class="SpImg")
